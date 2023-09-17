@@ -1,0 +1,19 @@
+.logo {
+    width: clamp(1rem , 20vw + 0.1rem , 5rem);
+}
+
+.logo2 {
+    width: clamp(1rem , 20vw + 0.1rem , 7rem);
+}
+
+
+.fluid {
+    width: 45vw;
+}
+
+.card img {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    padding: 1em;
+}

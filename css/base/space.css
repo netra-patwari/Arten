@@ -1,0 +1,24 @@
+.pd-1 {
+    padding: 1em;
+}
+
+.pd-2 {
+    padding: 2em;
+}
+
+.pd-3 {
+    padding: 3em;
+}
+
+.pd-bl-1 {
+    padding-block: 1em;
+}
+
+header, article {
+    padding: 4em;
+}
+
+.ar2 {
+    padding: 1em;
+}
+

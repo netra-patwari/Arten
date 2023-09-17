@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400&family=Lato:wght@100&display=swap');
+/* font-family: 'Inter', sans-serif;
+font-family: 'Lato', sans-serif; */
+:root {
+    --ff-heading :'Inter', sans-serif ;
+    --ff-body :'Inter', sans-serif ;
+
+    --fs-xl: clamp(1rem, 10vw + 0.5rem, 4rem);
+
+}
+
+h1 {
+    font-family: var(--ff-heading); 
+    font-weight:900;
+    font-size: var(--fs-xl);
+}
+
+h3 {
+    font-family: var(--ff-body);
+    font-size: 1.6rem;
+}
+
+h2 {
+    font-family: var(--ff-body);
+    font-size: 2rem;
+    font-weight: 1000;
+}
+
+span {
+    background-color: black;
+    color: white;
+}
+

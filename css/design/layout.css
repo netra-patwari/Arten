@@ -1,0 +1,38 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+}
+
+header, .ar1 {
+    width: 55vw;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cards-2 {
+    gap: 1em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+footer {
+    gap: 2em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    background-color: hsl(0, 0%, 94%);
+    color: hsl(318, 22%, 27%);
+}
